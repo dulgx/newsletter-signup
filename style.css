@@ -22,6 +22,7 @@ main {
   border-radius: 20px;
   margin: 20px;
   margin-top: 150px;
+  margin-bottom: 50px;
   font-family: "Roboto", sans-serif;
 }
 section {
@@ -85,4 +86,43 @@ span img {
   cursor: pointer;
   background: linear-gradient(to right, #ff6257 0%, #ff6699 100%);
   font-weight: 500;
+}
+/*---------*/
+main {
+  display: none;
+}
+
+.thankyou {
+  background-color: var(--white);
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  margin: 20px;
+  margin-top: 150px;
+  padding: 50px;
+  font-family: "Roboto", sans-serif;
+}
+.thankyou img {
+  width: 40px;
+  margin-top: -20px;
+}
+.thankyou h1 {
+  margin-left: -2px;
+  margin-top: 15px;
+}
+.thankyou p {
+  text-align: justify;
+}
+.thankyou input {
+  margin-top: 25px;
+  width: 100%;
+  height: 45px;
+  background-color: var(--dark-slate-grey);
+  border-style: none;
+  border-radius: 10px;
+  color: var(--white);
+}
+.thankyou input:hover {
+  cursor: pointer;
+  background: linear-gradient(to right, #ff6257 0%, #ff6699 100%);
 }
