@@ -1,0 +1,38 @@
+:root {
+  --dark-slate-grey: hsl(234, 29%, 20%);
+  --charcoal-grey: hsl(235, 18%, 26%);
+  --grey: hsl(231, 7%, 60%);
+  --white: hsl(0, 0%, 100%);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--charcoal-grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  width: 700px;
+  border-radius: 20px;
+  margin-top: 150px;
+  font-family: "Roboto", sans-serif;
+}
+section {
+  margin: 20px;
+}
+.image img {
+  height: 380px;
+}
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.text {
+  margin-bottom: 40px;
+}
