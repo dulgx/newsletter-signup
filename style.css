@@ -161,3 +161,29 @@ main {}
   color: #ff6257;
   display: none;
 }
+
+
+@media screen and (max-width: 650px) {
+  body {
+    background-color: var(--white);
+    margin: 0;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0;
+    padding: 0;
+  }
+
+  .image {
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  #photo {
+    height: 40vh;
+    margin: 0;
+    padding: 0;
+  }
+}
