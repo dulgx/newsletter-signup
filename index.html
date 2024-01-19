@@ -1,66 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <title>
-      Newsletter sign-up form with success message | Frontend Mentor
-    </title>
-  </head>
 
-  <body>
-    <main>
-      <section class="text">
-        <h1>Stay updated!</h1>
-        <span>Join 60,000+ product managers receiving monthly updates on:</span>
-        <span>
-          <img src="./assets/images/icon-list.svg" alt="icon-list" />
-          <p>Product discovery and building what matters</p>
-        </span>
-        <span>
-          <img src="./assets/images/icon-list.svg" alt="icon-list" />
-          <p>Measuring to ensure updates are a success</p>
-        </span>
-        <span>
-          <img src="./assets/images/icon-list.svg" alt="icon-list" />
-          <p>And much more!</p>
-        </span>
-        <span id="emailText">Email address</span>
-        <input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="email@company.com"
-        />
-        <input
-          type="submit"
-          value="Subscribe to monthly newsletter"
-          id="submit"
-        />
-      </section>
-      <section class="image">
-        <img
-          src="./assets/images/illustration-sign-up-desktop.svg"
-          alt="illustration-sign-up-desktop"
-        />
-      </section>
-    </main>
-    <div class="thankyou">
-      <img src="./assets/images/icon-success.svg" alt="icon-success" />
-      <h1>Thanks for subscribing!</h1>
-      <p>
-        A confirmation email has been sent to
-        <strong>ash@loremcompany.com</strong>. Please open it and click the
-        button inside to confirm your subscription.
-      </p>
-      <input type="submit" value="Dismiss message" />
-    </div>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <title>
+    Newsletter sign-up form with success message | Frontend Mentor
+  </title>
+</head>
+
+<body>
+  <main id="main">
+    <section class="text">
+      <h1>Stay updated!</h1>
+      <span>Join 60,000+ product managers receiving monthly updates on:</span>
+      <span>
+        <img src="./assets/images/icon-list.svg" alt="icon-list" />
+        <p>Product discovery and building what matters</p>
+      </span>
+      <span>
+        <img src="./assets/images/icon-list.svg" alt="icon-list" />
+        <p>Measuring to ensure updates are a success</p>
+      </span>
+      <span>
+        <img src="./assets/images/icon-list.svg" alt="icon-list" />
+        <p>And much more!</p>
+      </span>
+      <span id="emailText">Email address</span>
+      <input type="email" name="email" id="email" placeholder="email@company.com" />
+      <input type="submit" value="Subscribe to monthly newsletter" id="submit" />
+    </section>
+    <section class="image">
+      <img src="./assets/images/illustration-sign-up-desktop.svg" alt="illustration-sign-up-desktop" />
+    </section>
+  </main>
+  <div class="thankyou" id="thankyou">
+    <img src="./assets/images/icon-success.svg" alt="icon-success" />
+    <h1>Thanks for subscribing!</h1>
+    <p>
+      A confirmation email has been sent to
+      <strong>ash@loremcompany.com</strong>. Please open it and click the
+      button inside to confirm your subscription.
+    </p>
+    <input type="submit" value="Dismiss message" />
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
 </html>
