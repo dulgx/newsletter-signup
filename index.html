@@ -30,8 +30,10 @@
         <img src="./assets/images/icon-list.svg" alt="icon-list" />
         <p>And much more!</p>
       </span>
-      <span id="emailText">Email address</span>
-      <span></span>
+      <div class="mailSection">
+        <span id="emailText" class="valid">Email address</span>
+        <span id="emailText1" class="valid">Valid email required</span>
+      </div>
       <input type="email" name="email" id="email" placeholder="email@company.com" />
       <input type="submit" value="Subscribe to monthly newsletter" id="submit" />
     </section>
@@ -44,7 +46,7 @@
     <h1>Thanks for subscribing!</h1>
     <p>
       A confirmation email has been sent to
-      <strong id="user-mail">ash@loremcompany.com</strong>. Please open it and click the
+      <strong id="user-mail"></strong>. Please open it and click the
       button inside to confirm your subscription.
     </p>
     <input type="submit" value="Dismiss message" />

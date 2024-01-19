@@ -74,7 +74,7 @@ span img {
 }
 
 
-#emailText {
+.valid {
   color: var(--dark-slate-grey);
   font-size: 13px;
   font-weight: 900;
@@ -149,4 +149,15 @@ main {}
 .thankyou input:hover {
   cursor: pointer;
   background: linear-gradient(to right, #ff6257 0%, #ff6699 100%);
+}
+
+.mailSection {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+#emailText1 {
+  color: #ff6257;
+  display: none;
 }
